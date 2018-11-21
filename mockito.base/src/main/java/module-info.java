@@ -1,7 +1,7 @@
 module mockito.base{
     requires java.base;
-  //  requires hamcrest.core;
-  //  requires junit;
+    requires hamcrest.core;
+    requires junit;
     requires net.bytebuddy.agent;
     requires net.bytebuddy;
     requires java.instrument;
